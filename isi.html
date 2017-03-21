@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TypeWriter</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/theme.css">
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<style type="text/css">
+		.typed-cursor{
+    opacity: 0;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+	</style>
+</head>
+<body style=" background: url('bg1.jpg');">
+    <div class="container">
+    <br><br><br>
+    	<h1 style="font-size: 50px;" class="element"></h1>
+      <p class="content" style="font-size: 20px;"></p>
+    </div>
+
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/typed.min.js"></script>
+<script>
+  $(function(){
+     $(".element").typed({
+     	strings:["My Love Letter ^1000"],
+     	typeSpeed:0
+     });
+     $(".content").typed({
+      strings:["^2000 Dear, (name)^1000<br><br>Ketika aku pertama kali melihatmu, aku telah jatuh cinta denganmu. Mungkin, perasaan ini terlalu cepat dan kadang-kadang membuat dirimu aneh, tapi aku percaya dengan semua cintaku kepadamu. Aku ingin kau menjadi pemilik hatiku. Aku ingin kau menjadi pendamping hidupku.^1000 <br><br>Setiap malam, aku terus berpikir tentang hari bahagia ketika kita saling mencintai selamanya. Meskipun kita baru saja bertemu, aku sangat merindukanmu. Aku ingin kau menjadi milikku, dan berkomitmen untuk menciptakan rasa cinta yang tak ada habisnya.^1000<br><br> Aku harap engkau akan menerimaku dalam hidup mu. Aku memiliki cinta yang sangat besar. Ini adalah sukacita dan kebahagiaan yang ingin ku bagi denganmu. Aku akan melindungi cinta kita dari apapun , karena aku selalu mencintaimu.^1500<br><br><br>Sincerely , Creator"],
+      typeSpeed:0,
+
+     });
+  });
+</script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
